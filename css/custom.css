@@ -1,3 +1,14 @@
+/********** alert**********/
+.alert {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #4CAF50; /* Green border */
+    border-radius: 4px;
+    color: #4CAF50; /* Green text */
+    background-color: #e7f3e7; /* Light green background */
+    display: none;
+}
+
 /********** common setting **********/
 
 h2 {

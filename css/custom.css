@@ -2,7 +2,13 @@
 .logo {
     margin: 20px;
     padding-left: 20px;
-}                       
+}                   
+
+#about-us{
+ padding-top: 120px ;
+ padding-bottom: 120px;
+ background: #c4d0d7;
+}
                        
                        /********** common setting **********/
                         
@@ -269,31 +275,26 @@ button {
     max-width: 480px;
 }
 
-#feature-first, #feature-fourth {
-    background: linear-gradient(168deg, #ffffff 55%, #009dff 0);
+#feature-first{
+    background: linear-gradient(118deg, #ffffff 55%, #009dff 0);
+}
+#feature-second{
+    background:linear-gradient(232deg, #ffffff 55%, #90ddf7 0);
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+#feature-third{
+    background: linear-gradient(118deg, #ffffff 55%, #c4d0d7 0);
+}
+#feature-fourth {
+    background: linear-gradient(232deg, #ffffff 55%, #009dff 0);
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
-#feature-last, #feature-second{
-    background: #90ddf7;
+#feature-last{
+    background: linear-gradient(118deg, #ffffff 55%, #90ddf7 0 );
 }
-
-
-/********** price table **********/
-
-#aboutus {
-    padding-top: 10rem !important;
-    padding-bottom: 10rem !important;
-}
-
-#aboutus__box {
-    background: #192440;
-    color: #ffffff;
-}
-
-#aboutus ul li {
-    padding: 100px 0;
-}
-
 
 /********** contact **********/
 

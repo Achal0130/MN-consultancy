@@ -1,189 +1,211 @@
+* {
+    max-width: auto;
+}
 
 .logo {
     margin: 20px;
     padding-left: 20px;
-}                   
-
-#about-us{
- padding-top: 120px ;
- padding-bottom: 120px;
- background: #c4d0d7;
 }
-                       
-                       /********** common setting **********/
-                        
-                        h2 {
-                            font-size: 2.8rem !important;
-                            font-weight: 700;
-                        }
-                        
-                        img {
-                            display: block;
-                            max-width: 100%;
-                        }
-                        
-                        a,
-                        button {
-                            cursor: pointer;
-                        }
-                        
-                        .jumbotron {
-                            margin-bottom: 0 !important;
-                        }
-                        
-                        .atlas-cta {
-                            border-radius: 22px !important;
-                            padding: 12px 30px !important;
-                            font-weight: 700;
-                            transition: .3s ease-in-out !important;
-                        }
-                        
-                        .atlas-cta:hover {
-                            text-decoration: none;
-                            transform: translateY(-5px);
-                        }
-                        
-                        .atlas-cta-wide {
-                            width: 100%;
-                        }
-                        
-                        .cta-green {
-                            background: #009dff;
-                            color: #192440;
-                        }
-                        
-                        .cta-green:hover {
-                            color: #ffffff;
-                            background: #0088ff;
-                        }
-                        
-                        .cta-blue {
-                            background: #192440;
-                            color: #ffffff;
-                        }
-                        
-                        .cta-blue:hover {
-                            color: #ffffff;
-                            background: #121a2e;
-                        }
-                        
-                        .cta-ghost {
-                            border: 2px solid #192440 !important;
-                            color: #192440;
-                        }
-                        
-                        .cta-ghost:hover {
-                            color: #ffffff;
-                            background: #121a2e;
-                        }
-                        
-                        #banner {
-                            background-size: cover;
-                        }
-                        /********** copyright **********/
-                        
-                        #copyright {
-                            background: #192440;
-                            padding: 2rem 3rem;
-                        }
-                        
-                        #copyright #social-media a {
-                            width: 40px;
-                            height: 40px;
-                            border-radius: 99%;
-                            background: #ffffff;
-                            transition: .4s ease;
-                        }
-                        
-                        #copyright #social-media a i {
-                            color: #192440;
-                            font-size: 1.2rem;
-                            line-height: 40px;
-                        }
-                        
-                        #copyright #social-media a:hover {
-                            background: #009dff;
-                        }
-                        
-                        #copyright #social-media a:hover i {
-                            color: #ffffff;
-                        }
-                        /********** contact **********/
-                        
-                        #contact {
-                            background-size: cover;
-                        }
-                        
-                        #contact ul li {
-                            padding: 3px 0;
-                        }
-                        
-                        #contact form {
-                            color: #00e1ff;
-                        }
-                        
-                        #contact form input,
-                        #contact form textarea {
-                            background: transparent;
-                            border: 1px solid #00e1ff;
-                            color: #ffffff;
-                        }
-                        /********** banner **********/
-                        
-                        #banner header {
-                            overflow: hidden;
-                        }
-                        
-                        #banner header img {
-                            max-width: 80px;
-                        }
-                        /********** feature (skew background) **********/
-                        
-                        .feature img {
-                            width: 100%;
-                            max-width: 480px;
-                        }
-                        
-                        #feature-first {
-                            background: linear-gradient(168deg, #ffffff 55%, #00e1ff 0);
-                        }
-                        
-                        #feature-last {
-                            background: #009dff;
-                        }
-                        /********** about us **********/
-                        
-                        #aboutus {
-                            padding-top: 10rem !important;
-                            padding-bottom: 10rem !important;
-                        }
-                        
-                        #aboutus__box {
-                            background: #192440;
-                            color: #ffffff;
-                        }
-                        
-                        #aboutus ul li {
-                            padding: 100px 0;
-                        }
-                        /********** RWD **********/
-                        
-                        @media (max-width: 575px) {
-                            #banner h1 {
-                                font-size: 3.6rem;
-                            }
-                        }
+
+#about-us {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #c8e6fe;
+}
+
+
+/********** common setting **********/
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+.atlas-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: #009dff;
+    color: #192440;
+}
+
+.cta-green:hover {
+    color: #ffffff;
+    background: #0088ff;
+}
+
+.cta-blue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+#banner {
+    background-size: cover;
+}
+
+
+/********** copyright **********/
+
+#copyright {
+    background: #192440;
+    padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: .4s ease;
+}
+
+#copyright #social-media a i {
+    color: #192440;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+    background: #009dff;
+}
+
+#copyright #social-media a:hover i {
+    color: #ffffff;
+}
+
+
+/********** contact **********/
+
+#contact {
+    background-size: cover;
+}
+
+#contact ul li {
+    padding: 3px 0;
+}
+
+#contact form {
+    color: 0a84e1;
+}
+
+#contact form input,
+#contact form textarea {
+    background: transparent;
+    border: 1px solid 0a84e1;
+    color: #ffffff;
+}
+
+
+/********** banner **********/
+
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 80px;
+}
+
+
+/********** feature (skew background) **********/
+
+.feature img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#feature-first {
+    background: linear-gradient(168deg, #ffffff 55%, 0a84e1 0);
+}
+
+#feature-last {
+    background: #009dff;
+}
+
+
+/********** about us **********/
+
+#aboutus {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+
+#aboutus__box {
+    background: #192440;
+    color: #ffffff;
+}
+
+#aboutus ul li {
+    padding: 100px 0;
+}
+
+
+/********** RWD **********/
+
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
+
 
 /********** alert**********/
+
 .alert {
     padding: 15px;
     margin: 10px 0;
-    border: 1px solid #4CAF50; /* Green border */
+    border: 1px solid #4CAF50;
+    /* Green border */
     border-radius: 4px;
-    color: #4CAF50; /* Green text */
-    background-color: #e7f3e7; /* Light green background */
+    color: #4CAF50;
+    /* Green text */
+    background-color: #e7f3e7;
+    /* Light green background */
     display: none;
 }
+
 
 /********** common setting **********/
 
@@ -229,7 +251,7 @@ button {
 
 .cta-green:hover {
     color: #ffffff;
-    background: #00e1ff;
+    background: 0a84e1;
 }
 
 .cta-blue {
@@ -275,26 +297,30 @@ button {
     max-width: 480px;
 }
 
-#feature-first{
-    background: linear-gradient(118deg, #ffffff 55%, #009dff 0);
+#feature-first {
+    background: linear-gradient(118deg, #ffffff 55%, #0a84e1 0);
 }
-#feature-second{
-    background:linear-gradient(232deg, #ffffff 55%, #90ddf7 0);
-    padding-top: 150px;
-    padding-bottom: 100px;
-}
-#feature-third{
-    background: linear-gradient(118deg, #ffffff 55%, #c4d0d7 0);
-}
-#feature-fourth {
-    background: linear-gradient(232deg, #ffffff 55%, #009dff 0);
+
+#feature-second {
+    background: linear-gradient(232deg, #ffffff 55%, #c4d0d7 0);
     padding-top: 150px;
     padding-bottom: 100px;
 }
 
-#feature-last{
-    background: linear-gradient(118deg, #ffffff 55%, #90ddf7 0 );
+#feature-third {
+    background: linear-gradient(118deg, #ffffff 55%, #0a84e1 0);
 }
+
+#feature-fourth {
+    background: linear-gradient(232deg, #ffffff 55%, #c4d0d7 0);
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#feature-last {
+    background: linear-gradient(118deg, #ffffff 55%, #0a84e1 0);
+}
+
 
 /********** contact **********/
 
@@ -307,13 +333,13 @@ button {
 }
 
 #contact form {
-    color: #00e1ff;
+    color: #ffffff;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00e1ff;
+    border: 1px solid #ffffff;
     color: #ffffff;
 }
 
@@ -340,7 +366,7 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #00e1ff;
+    background: 0a84e1;
 }
 
 #copyright #social-media a:hover i {

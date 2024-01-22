@@ -1,5 +1,13 @@
 /**navbar**/
-                    
+
+.nav {
+    display: none;
+}
+
+.nav.active {
+    display: block;
+}
+
 nav {
     margin: 0;
     padding: 0;
@@ -84,7 +92,6 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 
 .header-area .main-nav .nav li a {
     display: block;
@@ -453,10 +460,9 @@ nav {
     }
 }
 
-
 .scroll-to-section.active {
     color: rgb(38, 67, 128);
-  }
+}
 
 @media (min-width: 767px) {
     .header-area .main-nav .nav {

@@ -1,12 +1,14 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyChZCsqcXRD4m1nBqQe7tw2rBG7rWnmoo0",
-    authDomain: "live-temp-contactus.firebaseapp.com",
-    databaseURL: "https://live-temp-contactus-default-rtdb.firebaseio.com",
-    projectId: "live-temp-contactus",
-    storageBucket: "live-temp-contactus.appspot.com",
-    messagingSenderId: "95346415570",
-    appId: "1:95346415570:web:1d4769a51a3003d44e1a0b"
+    apiKey: "AIzaSyDfooMN5vxR2fRYCT3POQpEk6pe56uiBio",
+    authDomain: "minerva-1604.firebaseapp.com",
+    databaseURL: "https://minerva-1604-default-rtdb.firebaseio.com",
+    projectId: "minerva-1604",
+    storageBucket: "minerva-1604.appspot.com",
+    messagingSenderId: "399734462747",
+    appId: "1:399734462747:web:5d52eace3f283930cbdbbe",
+    measurementId: "G-83GZN4GD8Y"
   };
+
   
 firebase.initializeApp(firebaseConfig);
 

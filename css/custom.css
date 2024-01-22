@@ -1,5 +1,10 @@
 
-                        /********** common setting **********/
+.logo {
+    margin: 20px;
+    padding-left: 20px;
+}                       
+                       
+                       /********** common setting **********/
                         
                         h2 {
                             font-size: 2.8rem !important;
@@ -37,13 +42,13 @@
                         }
                         
                         .cta-green {
-                            background: #00e1ff;
+                            background: #009dff;
                             color: #192440;
                         }
                         
                         .cta-green:hover {
                             color: #ffffff;
-                            background: #00e1ff;
+                            background: #0088ff;
                         }
                         
                         .cta-blue {
@@ -91,7 +96,7 @@
                         }
                         
                         #copyright #social-media a:hover {
-                            background: #00e1ff;
+                            background: #009dff;
                         }
                         
                         #copyright #social-media a:hover i {
@@ -138,7 +143,7 @@
                         }
                         
                         #feature-last {
-                            background: #00e1ff;
+                            background: #009dff;
                         }
                         /********** about us **********/
                         
@@ -212,7 +217,7 @@ button {
 }
 
 .cta-green {
-    background: #00e1ff;
+    background: #0091ff;
     color: #192440;
 }
 
@@ -264,12 +269,12 @@ button {
     max-width: 480px;
 }
 
-#feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00e1ff 0);
+#feature-first, #feature-fourth {
+    background: linear-gradient(168deg, #ffffff 55%, #009dff 0);
 }
 
-#feature-last {
-    background: #00e1ff;
+#feature-last, #feature-second{
+    background: #90ddf7;
 }
 
 

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- font-awesome -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- nav css-->
+    <link rel="stylesheet" href="css/nav.css">
 
     <!-- AOS -->
     <link rel="stylesheet" href="css/aos.css">
@@ -20,9 +22,37 @@
 
 <body>
 
-
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.png" alt="" height="60px" width="80px">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#home">Home</a></li>
+                            <li class="scroll-to-section"><a href="#features">Services</a></li>
+                            <li class="scroll-to-section"><a href="#about-us">About Us</a></li>
+                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                            
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <!-- banner -->
+    <section id="home">
     <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
         <div class="container text-center text-md-left">
             <header>
@@ -38,8 +68,10 @@
             <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
         </div>
     </div>
+</section>
 
     <!-- feature (skew background) -->
+    <section id="features">
     <div class="jumbotron jumbotron-fluid feature" id="feature-first">
         <div class="container my-5">
             <div class="row justify-content-between text-center text-md-left">
@@ -56,7 +88,7 @@
         </div>
     </div>
     <!-- feature (green background) -->
-    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+    <div class="jumbotron jumbotron-fluid feature" id="feature-second">
         <div class="container">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
@@ -74,7 +106,7 @@
         </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+    <div class="jumbotron jumbotron-fluid feature" id="feature-third">
         <div class="container my-5">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
@@ -92,7 +124,7 @@
         </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+    <div class="jumbotron jumbotron-fluid feature" id="feature-fourth">
         <div class="container">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
@@ -127,8 +159,10 @@
             </div>
         </div>
     </div>
+</section>
 
     <!-- about us -->
+    <section id="about-us">
     <div class="container my-5" id="about us">
         <h2 class="text-center font-weight-bold">About Us</h2>
         <div class="row">
@@ -142,8 +176,10 @@
             </div>
         </div>
     </div>
+    </section>
 
     <!-- contact -->
+    <section id="contact">
     <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
         <div class="container my-5">
             <div class="row justify-content-between">
@@ -184,7 +220,7 @@
             </div>
         </div>
     </div>
-
+</section>
     <!-- copyright -->
     <div class="jumbotron jumbotron-fluid" id="copyright">
         <div class="container">

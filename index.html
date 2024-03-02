@@ -19,6 +19,11 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- AOS -->
     <link rel="stylesheet" href="css/aos.css">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -31,7 +36,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="img/logo.png" alt="" height="70px" width="120px">
+                            <img src="img/logo.png" alt="" height="60px" width="80px">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -50,15 +55,14 @@
                 </div>
             </div>
         </div>
+        </nav>
     </header>
 
     <!-- banner -->
     <section id="home">
         <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.avif);">
             <div class="container text-center text-md-left">
-                <header>
 
-                </header>
                 <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
                     Empowering <br> Your Brand Story
                 </h1>
@@ -169,7 +173,7 @@
                         Minerva Consultancy, your trusted for all your Content Writing, Content Creation, Social Media optimization, LinkedIn Growth and Optimization, and Digital Marketing Needs. We specialize in helping local businesses and individuals build a strong online
                         presence and achieve their strategic goals. With our expertise and tailored solutions, we have helped numerous clients succeed in the competitive digital landscape.
                     </p>
-                    <a href="#" class="btn p text-center font-weight-bold atlas-cta cta-green">Connect With Us Now!</a>
+                    <a href="#contact" class="btn p text-center font-weight-bold atlas-cta cta-green">Connect With Us Now!</a>
                 </div>
             </div>
         </div>
@@ -251,17 +255,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var menuTrigger = document.querySelector('.menu-trigger');
-            var navMenu = document.querySelector('.nav');
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-            menuTrigger.addEventListener('click', function() {
-                navMenu.classList.toggle('active');
-            });
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
         });
     </script>
+
+
+
 </body>
 
 </html>

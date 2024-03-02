@@ -2,7 +2,8 @@
 
 .nav {
     display: none;
-    max-width: auto;;
+    max-width: auto;
+    ;
 }
 
 .nav.active {

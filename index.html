@@ -201,14 +201,14 @@
                 <div class="col-md-6">
                     <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
                         <div class="row">
-                            <input type="hidden" name="access_key" value="c86ae9df-e7ec-49b8-92c8-4ae72a59fd99">
+                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
-                                <input type="text" name="name" class="form-control" id="name">
+                                <input type="text" name="name" class="form-control" id="name" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="email">Your Email</label>
-                                <input type="email" name="email" class="form-control" id="email">
+                                <input type="email" name="email" class="form-control" id="email" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Your Phone Number</label>
@@ -217,10 +217,9 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
                         </div>
                         <button type="submit" id="submit_btn" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Send message</button>
-<!--                         <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Submit</button> -->
                     </form>
                 </div>
             </div>
